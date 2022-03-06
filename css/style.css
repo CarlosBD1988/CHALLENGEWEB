@@ -13,10 +13,7 @@ p {
 nav{
     display: flex;
     flex-direction: row;
-    background:#D6DBDF;
-    justify-content: center;
-    height: 300px;
-    align-items: center;
+    background:#D6DBDF
 }
 footer{
     background: rgb(150, 138, 138);
