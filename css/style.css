@@ -1,6 +1,6 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background:#D6DBDF	;
+    background:#215783	;
 }
 .banner{
     border-radius: 10px;
@@ -10,7 +10,7 @@ p {
     text-align:justify
 }
 nav{
-    background:#D6DBDF
+    background:#1f6ba8
 }
 nav ul{
     display: flex;
