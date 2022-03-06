@@ -9,11 +9,13 @@ body{
 p {
     text-align:justify
 }
-
 nav{
+    background:#D6DBDF
+}
+nav ul{
     display: flex;
     flex-direction: row;
-    background:#D6DBDF
+    
 }
 footer{
     background: rgb(150, 138, 138);
