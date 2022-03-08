@@ -38,6 +38,14 @@ body{
     border-radius: 2px;
 }
 
+.main-nav__item a:hover{
+    color: white;
+    background-color:darkslategray;
+    font-size: 15px;
+
+}
+
+
 .main{
     display: flex;
     flex-direction: row;
