@@ -6,46 +6,37 @@
     <meta name="robots" content="index,follow" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conozcan mi coleccion de gorras</title>
-    
+    <title>Coleccion de gorras</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <header>
-        <img src="/img/banner-2.jpg" alt="Bienvenidos a mi web" class="banner">
+    <header class="page-header">
+        <img src="/img/banner-1.jpg" alt="Bienvenidos a mi web" class="banner">
+        <h1 id="page-title" class="title">Mi blog de gorras</h1>   
     <nav>
-    <ul class="main-nav">
-        <li class="main-nav__item">Deportivas
+    <ul class="main-nav" id="main-nav">
+        <li class="main-nav__item"><a href="#">Home</a></li>
+        <li class="main-nav__item"><a href="#">Tipos de gorras</a>
             <ol>
-                <li class="main-nav___item"><a href="#">America de Cali</a></li>
-                <li class="main-nav___item"><a href="#">Atletico Bucaramanga</a></li>
+                <li><a href="#">Deportivas</a></li>
+                <li><a href="#">Empresariales</a></li>
+                <li><a href="#">Series y peliculas</a></li>
+                <li><a href="#">Boinas</a></li>
             </ol>
         </li>
-        <li class="main-nav__item">Empresas
-            <ol >
-                <li class="main-nav___item"><a href="#">Agility RPA</a></li>
-                <li class="main-nav___item"><a href="#">Insurcol</a></li>
-            </ol>      
-        </li>
-        <li class="main-nav__item">Series
-            <ol>
-                <li class="main-nav___item"><a href="#">Dragon Ball</a></li>
-                <li class="main-nav___item"><a href="#">Iron man</a></li>        
-                <li class="main-nav___item"><a href="#">Forest Gump</a></li>
-            </ol> 
-        </li>     
-        <li class="main-nav__item">Boinas
-            <ol>
-                <li class="main-nav___item"><a href="#">Boina ingles</a></li>
-                <li class="main-nav___item"><a href="#">Boina plana</a></li>        
-            </ol>  
-        </li>    
- </ul>
-</nav>
+        <li class="main-nav__item"><a href="#">Tiendas</a></li>
+        <li class="main-nav__item"><a href="#">Marcas</a></li>     
+        <li class="main-nav__item"><a href="#">Blog</a></li>
+         
+    </ul>
+    </nav>
 </header>
-<main>
-    <h1>Coleccion de gorras</h1>
+ 
+<main class="main">
+    
     <section>
+        <div>
         <article>
             <h2>Un poco de historia</h2>
             <p>Las Gorras no son un accesorio más, sino que son un identificativo de la personalidad y un complemento característico de diferenciación.
@@ -53,38 +44,51 @@
             El origen de las gorras se remonta a las antiguas civilizaciones. Ya en el Imperio Egipcio se utilizaban tocados que cubrían la cabeza, mientras que en los Imperios Romano Persa y la Antigua Grecia, se utilizaban una gorras cónicas de lana para proteger la cabeza.
             </p>
         </article>
+    </div>
     </section>
-    <section></section>
-    <section>
+
+    <section >       
         <article>
             <h2>Mi gorra preferida</h2>
-            <img src="img/forest_gump.jpg" alt="Gorra forest Gump" width="250px" height="250px">
+            <img src="img/forest_gump.jpg" alt="Gorra forest Gump" class="article-img">
+            <p>Forrest compra un barco pesquero que bautiza con el nombre de Jenny y comienza así a cumplir la promesa que le hizo a su amigo Bubba, muerto en Vietnam.</p>
         </article>
-
-
-
-
     </section>
-    <section>
-        <h2>Inicio de sesion</h2>
-        <form action="">
-            <label for="email"></label>
-            <span>Ingresa tu Email:</span>
-            <input type="email" id="email" placeholder="email" required>
-            <p>
-            <label for="password">Ingresa tu password:</label>
-            <input type="password" id="password" placeholder="Password" required>
-            </p>
-            <p><input type="submit"></p>
-            
-        </form>
+    <section >       
+        <article>
+            <h2>Equipo de mi ciudad</h2>
+            <img src="img/bucaros.jpg" alt="Atletico Bucaramanga" class="article-img">
+            <p>Club de fútbol en Colombia ubicado en Bucaramanga, capital del departamento de Santander.</p>
+        </article>
     </section>
+    <section >       
+        <article>
+            <h2>La mejor serie del mundo</h2>
+            <img src="img/dragon_ball.jpg" alt="Dragon ball" class="article-img">
+            <p>Manga escrito e ilustrado por Akira Toriyama, Con la mejor etapa de Goku.</p>
+        </article>
+    </section>
+    <section >       
+        <article>
+            <h2>Un recuerdo de Mexico</h2>
+            <img src="img/mexico.jpg" alt="Mexico" class="article-img">
+            <p>Tierra de los tacos al pastor</p>
+        </article>
+    </section>
+
+    
+
 </main>
 
-<footer>
-    <a href="https://bit.ly/3vOQBSi"><img src="img/icon/instagram.png"></a>
-    <a href="https://www.facebook.com/CbJs2017"><img src="img/icon/facebook.png"></a>
-    <p>© copyright  2022</p>
+<footer class="footer">
+        <form action="">
+            <label for="suscribete">Deseas recibir mas noticias sobre este tema</label><br>
+            <input type="text" placeholder="Suscribete a nuestro boletin">
+            <input type="submit">
+        </form>
+        <a href="https://bit.ly/3vOQBSi"><img src="img/icon/instagram.png"></a>
+        <a href="https://www.facebook.com/CbJs2017"><img src="img/icon/facebook.png"></a>
+       <p>© copyright  2022</p>
    
 </footer>
     
